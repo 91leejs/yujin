@@ -23,4 +23,12 @@ $(function(){
 
         console.log(n);
     },2500)
+
+    $(".pop_click").click(function(){
+        $(".popup").show();
+    })//pop click
+
+    $(".close").click(function(){
+        $(".popup").hide();
+    })//close click
 })//jQuery
